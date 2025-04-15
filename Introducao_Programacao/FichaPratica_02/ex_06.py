@@ -1,13 +1,14 @@
-numero = 1
+contador = 1
 
-soma = 0
+soma = 0 #depois eu guardo esse valor
 
-while numero <= 100:
-    print(numero)
-    numero += 1
-    soma = soma + numero 
-        
-print("A soma de todos os números é: ", soma)
+while contador <= 100:
+    print(contador)
+    soma += contador
+    contador += 1
+
+#fora do ciclo
+print("Somatório: ", soma)
 
 
 
