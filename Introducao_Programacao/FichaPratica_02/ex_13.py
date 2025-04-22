@@ -18,3 +18,4 @@ if crescente:
     print("A ordem está em ordem crescente!")
 else:
     print("A sequencia não esta em ordem crescente.")
+    
